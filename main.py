@@ -37,15 +37,25 @@ print("Hello Git")
 #print(f"Загальна вартість у центах: {total_cents} центів.")
 
 #f-рядки
-num_1=int(input("Введіть перше ціле число: "))
-num_2=int(input("Введіть друге ціле число: "))
-print(f"{num_1}+{num_2}={num_1+num_2}")
-print(f"{num_1}-{num_2}={num_1-num_2}")
-print(f"{num_1}*{num_2}={num_1*num_2}")
-print(f"{num_1}/{num_2}={num_1/num_2}")
+#num_1=int(input("Введіть перше ціле число: "))
+#num_2=int(input("Введіть друге ціле число: "))
+#print(f"{num_1}+{num_2}={num_1+num_2}")
+#print(f"{num_1}-{num_2}={num_1-num_2}")
+#print(f"{num_1}*{num_2}={num_1*num_2}")
+#print(f"{num_1}/{num_2}={num_1/num_2}")
 
 #f-рядки 2
-name=input("Введіть Ваше ім'я: ")
-last_name=input("Введіть Ваше прізвище: ")
-full_name=f"Ваше ім'я: {name} {last_name}"
-print(full_name)
+#name=input("Введіть Ваше ім'я: ")
+#last_name=input("Введіть Ваше прізвище: ")
+#full_name=f"Ваше ім'я: {name} {last_name}"
+#print(full_name)
+
+# Множини
+#add(elem) — додає елемент у множину
+numbers = {1, 2, 3}
+numbers.add(4)
+print(numbers)  # {1, 2, 3, 4}
+#remove(elem) — видаляє елемент із множини, викликає виняток, якщо такого елемента немає
+numbers = {1, 2, 3}
+numbers.remove(3)
+print(numbers)  # {1, 2}
